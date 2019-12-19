@@ -1,0 +1,15 @@
+{
+  "name": "telepat-north-website",
+  "version": "1.0.0",
+  "description": "Telepat North Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node lib/convert.js"
+  },
+  "author": "Andrei Marinescu",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^0.8.0"
+  }
+}

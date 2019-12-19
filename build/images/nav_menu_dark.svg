@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="24" viewBox="0 0 48 24">
+  <g id="nav_menu_dark" transform="translate(-1789 -885)">
+    <g id="icon_info" transform="translate(1789 885)">
+      <rect id="icon_bg" width="24" height="24" fill="none"/>
+      <g id="Group_4761" data-name="Group 4761" transform="translate(-988 -101)">
+        <rect id="Rectangle_1099" data-name="Rectangle 1099" width="20" height="2" rx="1" transform="translate(990 106)" fill="#fff"/>
+        <rect id="Rectangle_1100" data-name="Rectangle 1100" width="20" height="2" rx="1" transform="translate(990 112)" fill="#fff"/>
+        <rect id="Rectangle_1101" data-name="Rectangle 1101" width="20" height="2" rx="1" transform="translate(990 118)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="icon_info-2" data-name="icon_info" transform="translate(1813 885)">
+      <rect id="icon_bg-2" data-name="icon_bg" width="24" height="24" fill="none"/>
+      <g id="Group_4761-2" data-name="Group 4761" transform="translate(-988 -101)">
+        <rect id="Rectangle_1099-2" data-name="Rectangle 1099" width="20" height="2" rx="1" transform="translate(990 106)" fill="#3cffe0"/>
+        <rect id="Rectangle_1100-2" data-name="Rectangle 1100" width="20" height="2" rx="1" transform="translate(990 112)" fill="#3cffe0"/>
+        <rect id="Rectangle_1101-2" data-name="Rectangle 1101" width="20" height="2" rx="1" transform="translate(990 118)" fill="#3cffe0"/>
+      </g>
+    </g>
+  </g>
+</svg>

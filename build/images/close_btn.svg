@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="36" viewBox="0 0 72 36">
+  <g id="close_btn" transform="translate(-862 -1711)">
+    <g id="Group_267" data-name="Group 267" transform="translate(-323 1520)">
+      <rect id="btn_bg" width="36" height="36" transform="translate(1185 191)" fill="none"/>
+      <g id="close_btn-2" data-name="close_btn" transform="translate(820 -132)">
+        <rect id="icon_bg" width="24" height="24" transform="translate(371 329)" fill="none"/>
+        <path id="icon_delete" d="M-88,13h-5v5a1,1,0,0,1-1,1,1,1,0,0,1-1-1V13h-5a1,1,0,0,1-1-1,1,1,0,0,1,1-1h5V6a1,1,0,0,1,1-1,1,1,0,0,1,1,1v5h5a1,1,0,0,1,1,1A1,1,0,0,1-88,13Z" transform="translate(457.853 398.882) rotate(45)" fill="#a8a8a8"/>
+      </g>
+    </g>
+    <g id="Group_266" data-name="Group 266" transform="translate(-287 1520)">
+      <rect id="btn_bg-2" data-name="btn_bg" width="36" height="36" transform="translate(1185 191)" fill="none"/>
+      <g id="close_btn-3" data-name="close_btn" transform="translate(820 -132)">
+        <rect id="icon_bg-2" data-name="icon_bg" width="24" height="24" transform="translate(371 329)" fill="none"/>
+        <path id="icon_delete-2" data-name="icon_delete" d="M-88,13h-5v5a1,1,0,0,1-1,1,1,1,0,0,1-1-1V13h-5a1,1,0,0,1-1-1,1,1,0,0,1,1-1h5V6a1,1,0,0,1,1-1,1,1,0,0,1,1,1v5h5a1,1,0,0,1,1,1A1,1,0,0,1-88,13Z" transform="translate(457.854 398.882) rotate(45)" fill="#fe653e"/>
+      </g>
+    </g>
+  </g>
+</svg>
