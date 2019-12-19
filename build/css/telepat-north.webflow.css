@@ -276,6 +276,10 @@
   background-color: #00c1c1;
 }
 
+.btn-fill.test.faq {
+  margin-top: 40px;
+}
+
 .main-benefits-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -371,10 +375,7 @@
   right: 0%;
   bottom: auto;
   z-index: 100;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   height: 80px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -437,17 +438,6 @@
 
 .section-divider.principles {
   margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.section-divider.pro {
-  margin-top: 60px;
-  margin-bottom: 0px;
-  margin-left: 15px;
-}
-
-.section-divider.pers {
-  margin-top: 50px;
   margin-bottom: 0px;
 }
 
@@ -654,6 +644,13 @@
   letter-spacing: 1px;
 }
 
+._360-section {
+  background-image: url('../images/dots-thin-right.jpg'), url('../images/dots_wide_left.jpg');
+  background-position: 106% 100%, -8% 0px;
+  background-size: 306px, 395px;
+  background-repeat: no-repeat, no-repeat;
+}
+
 ._360-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -785,7 +782,6 @@
   display: -ms-flexbox;
   display: flex;
   height: 60px;
-  margin-top: 30px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1041,14 +1037,20 @@
 .principles-section {
   padding-bottom: 100px;
   background-color: #fff;
+  background-image: url('../images/dots-left.jpg'), url('../images/dots-right.jpg');
+  background-position: -15% 24%, 110% 94%;
+  background-size: 611px, 611px;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .principles-section.dark {
   background-color: #121212;
+  background-image: none;
 }
 
 .principles-section.res {
   padding-bottom: 50px;
+  background-position: -35% 64%, 135% -5%;
 }
 
 .principles-wrapper {
@@ -1313,8 +1315,16 @@
   margin-bottom: 60px;
 }
 
+.handbook-section-wrapper.question {
+  margin-top: 80px;
+}
+
 .handbook-col {
   margin-top: 50px;
+}
+
+.handbook-col.answer {
+  margin-top: 35px;
 }
 
 .hbook-col-left {
@@ -1356,6 +1366,10 @@
   align-items: flex-start;
 }
 
+.hbook-item.first {
+  margin-top: 40px;
+}
+
 .hbook-txt {
   font-family: 'Axiforma Book', sans-serif;
   font-size: 15px;
@@ -1371,8 +1385,25 @@
   font-weight: 400;
 }
 
+.hbook-txt.light {
+  margin-bottom: 20px;
+  font-family: 'Axiforma Light', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.hbook-txt.about {
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+
 .hbook-items {
   padding-left: 20px;
+}
+
+.hbook-items.answer {
+  padding-left: 0px;
 }
 
 .hbook-list {
@@ -1385,6 +1416,24 @@
   color: #1f1f1f;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.code-bg {
+  background-image: url('../images/dots-right.jpg'), url('../images/dots-left.jpg'), url('../images/dots_wide_right.jpg');
+  background-position: 133% 100%, -100px 475px, 110% 60px;
+  background-size: 611px, 611px, 395px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.handbook-bg {
+  background-image: url('../images/dots-thin-right.jpg'), url('../images/dots-right.jpg');
+  background-position: 100% 65%, 100% -1%;
+  background-size: 306px, 611px;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.handbook-bg.faq {
+  background-position: 100% 94%, 100% -1%;
 }
 
 html.w-mod-js *[data-ix="nav-display-none"] {
@@ -1415,6 +1464,9 @@ html.w-mod-js *[data-ix="nav-display-none"] {
   }
   .nav-link.login.black.mob {
     margin-top: 30px;
+  }
+  .btn-fill.test.faq {
+    margin-bottom: 30px;
   }
   .benefit-group.middle {
     margin-right: 20px;
@@ -1553,6 +1605,12 @@ html.w-mod-js *[data-ix="nav-display-none"] {
   .handbook-section {
     width: 600px;
     margin-left: 60px;
+  }
+  .hbook-col-right.learning {
+    margin-top: 30px;
+  }
+  .hbook-txt.padding {
+    margin-top: 30px;
   }
 }
 
@@ -1748,13 +1806,6 @@ html.w-mod-js *[data-ix="nav-display-none"] {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .section-divider.pro {
-    margin-top: 40px;
-    margin-left: 0px;
-  }
-  .section-divider.pers {
-    display: none;
-  }
   .section-title {
     font-size: 28px;
     line-height: 36px;
@@ -1828,8 +1879,8 @@ html.w-mod-js *[data-ix="nav-display-none"] {
     padding-top: 50px;
   }
   .title-section {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
     padding-top: 40px;
   }
   .title-group {
@@ -1854,11 +1905,14 @@ html.w-mod-js *[data-ix="nav-display-none"] {
     font-size: 40px;
   }
   .handbook-section {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .handbook-section-wrapper {
     margin-top: 40px;
+  }
+  .handbook-section-wrapper.question {
+    margin-top: 50px;
   }
   .handbook-col {
     margin-top: 40px;
@@ -1870,6 +1924,11 @@ html.w-mod-js *[data-ix="nav-display-none"] {
     padding-left: 0px;
   }
   .hbook-title {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .hbook-txt.light {
+    margin-bottom: 15px;
     font-size: 26px;
     line-height: 34px;
   }
