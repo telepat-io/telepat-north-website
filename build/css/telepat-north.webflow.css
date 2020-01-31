@@ -1436,6 +1436,47 @@
   background-position: 100% 94%, 100% -1%;
 }
 
+.batch-card {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: 167px;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.batch-card a {
+  text-decoration: none;
+}
+
+.batch-card.mob {
+  display: none;
+}
+
+.batch-month {
+  font-family: 'Axiforma Regular', sans-serif;
+  color: #fff;
+}
+
+.batch-title {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-family: 'Axiforma Black', sans-serif;
+  color: #3cffe0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 900;
+}
+
+.batch-slots {
+  font-family: 'Axiforma Regular', sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 13px;
+  line-height: 18px;
+}
+
 html.w-mod-js *[data-ix="nav-display-none"] {
   display: none;
 }
@@ -1464,6 +1505,12 @@ html.w-mod-js *[data-ix="nav-display-none"] {
   }
   .nav-link.login.black.mob {
     margin-top: 30px;
+  }
+  .hero-copy {
+    margin-top: 65px;
+  }
+  .hero-cta {
+    margin-top: 40px;
   }
   .btn-fill.test.faq {
     margin-bottom: 30px;
@@ -1612,11 +1659,45 @@ html.w-mod-js *[data-ix="nav-display-none"] {
   .hbook-txt.padding {
     margin-top: 30px;
   }
+  .batch-card {
+    display: none;
+  }
+
+  .batch-card.mob {
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+    padding: 16px 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .batch-month {
+    font-size: 13px;
+  }
+  .batch-title {
+    margin: 0px 10px;
+    font-size: 15px;
+  }
+  .batch-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 767px) {
   .hero-banner {
-    height: 490px;
+    height: 640px;
   }
   .nav-bar {
     margin-top: 25px;
@@ -1639,7 +1720,7 @@ html.w-mod-js *[data-ix="nav-display-none"] {
     background-image: url('../images/nav_logo_black_mob.svg');
   }
   .hero-copy {
-    margin-top: 40px;
+    margin-top: 42px;
   }
   .hero-txt {
     max-width: 400px;
@@ -1767,11 +1848,30 @@ html.w-mod-js *[data-ix="nav-display-none"] {
     margin-right: 20px;
     margin-left: 20px;
   }
+  .batch-card.mob {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .batch-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .batch-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 479px) {
   .hero-banner {
-    height: 520px;
+    height: 640px;
   }
   .nav-bar {
     margin-top: 20px;
