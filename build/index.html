@@ -32,6 +32,17 @@
   </script>
   <!-- DO NOT MODIFY -->
   <!-- End Reddit Pixel -->
+  <script>
+    const handleSignup = () => {
+      gtag('event', "signup", {
+        'event_category': "lp-events",
+        'event_label': "signup"
+      });
+      setTimeout(() => { 
+        window.location = "https://github.com/login/oauth/authorize?scope=user:email&client_id=c39d6b638d0782588f91";
+      }, 100);
+    }
+  </script>
 
 </head>
 <body>
@@ -42,9 +53,9 @@
         <a href="#Home" class="mob-north-icon w-inline-block" data-ix="mob-close"></a>
         <a href="#Code" class="nav-link black mob" data-ix="mob-close">The Code</a>
         <a href="#Perks" class="nav-link black mob" data-ix="mob-close">THE BENEFITS</a>
-        <a href="#Ins-Outs" class="nav-link black mob" data-ix="mob-close">Ins &amp; Outs</a>
+        <a href="#nutshell" class="nav-link black mob" data-ix="mob-close">Ins &amp; Outs</a>
         <a href="#360" class="nav-link black mob" data-ix="mob-close">NORTH 360</a>
-        <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=c39d6b638d0782588f91" class="nav-link login black mob" data-ix="mob-close">Log In</a></div>
+        <a href="#" onclick="handleSignup()" class="nav-link login black mob" data-ix="mob-close">Log In</a></div>
     </div>
   </div>
   <div class="nav-bar-scroll" data-ix="nav-display-none">
@@ -52,9 +63,9 @@
       <div class="nav-links">
         <a href="#Code" class="nav-link black">The Code</a>
         <a href="#Perks" class="nav-link black">The Benefits</a>
-        <a href="#Ins-Outs" class="nav-link black">Ins &amp; Outs</a>
+        <a href="#nutshell" class="nav-link black">Ins &amp; Outs</a>
         <a href="#360" class="nav-link black">North 360</a>
-        <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=c39d6b638d0782588f91" class="nav-link login black">Log In</a>
+        <a href="#" onclick="handleSignup()" class="nav-link login black">Log In</a>
         <a href="#" class="nav-menu-dark w-inline-block" data-ix="mob-show"></a></div>
     </div>
   </div>
@@ -70,9 +81,9 @@
       <div class="nav-links">
         <a href="#Code" class="nav-link">The Code</a>
         <a href="#Perks" class="nav-link">The Benefits</a>
-        <a href="#Ins-Outs" class="nav-link">Ins &amp; Outs</a>
+        <a href="#nutshell" class="nav-link">Ins &amp; Outs</a>
         <a href="#360" class="nav-link">North 360</a>
-        <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=c39d6b638d0782588f91" class="nav-link login">Log In</a><a href="#" class="nav-menu w-inline-block" data-ix="mob-show"></a>
+        <a href="#" onclick="handleSignup()" class="nav-link login">Log In</a><a href="#" class="nav-menu w-inline-block" data-ix="mob-show"></a>
       </div>
     </div>
     <div class="hero-copy w-container">
@@ -150,6 +161,15 @@
             </div>
           </div>
         </div>
+        <div class="code-content" id="nutshell">
+          <div class="section-divider"></div>
+          <div class="nutshell-card">
+            <div class="section-title">IN A NUTSHELL</div><img src="images/icon_heart.png" width="48" alt="" class="icon-heart">
+            <div class="nutshell-title">North membership <span class="nutshell-title-teal">is free forever.</span></div>
+            <div class="nutshell-txt">We invest in members by providing them with the free learning resources of their choice and free professional coaching.</div>
+            <div class="nutshell-txt gray">If we’re able to match members with an employer company, we charge the company a monthly fee that goes back into providing benefits for members and growing the community.</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -175,9 +195,10 @@
       <div class="section-title">NORTH 360</div>
       <div class="section-txt">Club invitations are also extended to people with outstanding <span class="inline-bold">North 360</span> snapshots. In just 40-50 minutes, this tool allows you to assess your experience, cognitive and emotional ability as well as culture and values.</div>
       <div class="git-tag">Sign-Up with GitHub</div>
-      <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=c39d6b638d0782588f91" class="btn-fill test w-inline-block">
+      <a href="#" onclick="handleSignup()" class="btn-fill test w-inline-block">
         <div>Create profile</div>
       </a>
+      <a href="https://360.telepat.io/#/p/the-calculating-line" target="_blank" class="sample_link">View a sample profile</a>
       <div class="_360">
         <div class="_360-items">
           <div class="_360-item">
@@ -231,10 +252,6 @@
           <div class="benefit-txt"><span class="inline-bold">Job offers</span> from the most innovative technology companies.</div>
         </div>
       </div>
-      <div class="git-tag">&nbsp;</div>
-      <a href="https://360.telepat.io/#/p/the-calculating-line" target="_blank" class="btn-fill test w-inline-block">
-        <div>View a sample profile</div>
-      </a>
       <div class="section-divider"></div>
     </div>
   </div>

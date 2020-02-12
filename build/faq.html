@@ -28,6 +28,17 @@
 
     gtag('config', 'UA-157022533-2');
   </script>
+  <script>
+    const handleSignup = () => {
+      gtag('event', "signup", {
+        'event_category': "lp-events",
+        'event_label': "signup"
+      });
+      setTimeout(() => { 
+        window.location = "https://github.com/login/oauth/authorize?scope=user:email&client_id=c39d6b638d0782588f91";
+      }, 100);
+    }
+  </script>
 
 
 </head>
@@ -233,7 +244,7 @@
           </div>
           <div class="hbook-col-right w-col w-col-6 w-col-stack">
             <div class="hbook-txt">Candidates can fast-track to the final stage of our evaluation by creating a Telepat North 360 profile:</div>
-            <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=c39d6b638d0782588f91" class="btn-fill test faq w-inline-block">
+            <a href="#" onclick="handleSignup()" class="btn-fill test faq w-inline-block">
               <div>Create profile</div>
             </a>
           </div>
