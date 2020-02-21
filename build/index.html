@@ -38,6 +38,7 @@
         'event_category': "lp-events",
         'event_label': "signup"
       });
+      rdt('track', 'SignUp');
       setTimeout(() => { 
         window.location = "https://github.com/login/oauth/authorize?scope=user:email&client_id=c39d6b638d0782588f91";
       }, 100);
