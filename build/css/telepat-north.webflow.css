@@ -1340,7 +1340,7 @@
   font-family: 'Axiforma Medium', sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .hbook-title {
